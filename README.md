@@ -21,7 +21,6 @@ Installation Guide-
 
 ![Screenshot from 2023-08-07 23-36-31](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/23b2abd6-17f4-4624-8e31-8ed47bfcd745)
 ![Screenshot from 2023-08-07 20-50-37](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/feedb734-94f2-4617-8468-ad50465252fe)
-![Screenshot from 2023-08-07 23-36-31](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/6de7f4cc-3497-4230-8f2f-80bd0dda8802)
 ![Screenshot from 2023-08-07 23-37-50](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/04bc8a5a-3ad6-4ea2-8ddc-3dbb56c4ced5)
 
 {
