@@ -25,5 +25,13 @@ Installation Guide-
 ![Screenshot from 2023-08-07 23-08-38](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/26068ba5-e6f4-43e4-b60d-20f9e93ac78a)
 ![Screenshot from 2023-08-07 23-37-50](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/95755c6f-cbd5-46d0-8f47-19a2af483ac9)
 
+*{
+ If u get an error like this "Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured"
+ -Go to Run AS, Run Configuration.
+ -Go to Dependincies.
+ -Add src/main/resource in Maven Dependicies(where application.properties present).
+
+![Screenshot from 2023-08-07 23-45-50](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/71eefe29-250e-4ec8-83fc-274e4dab7f0d)
+}
 
 --EOF--
