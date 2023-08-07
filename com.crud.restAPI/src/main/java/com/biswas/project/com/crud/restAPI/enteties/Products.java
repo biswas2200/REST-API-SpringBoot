@@ -1,6 +1,11 @@
 package com.biswas.project.com.crud.restAPI.enteties;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Products {
+	@Id
 	private long id;
 	private String procName;
 	private String description;

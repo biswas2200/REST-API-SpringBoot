@@ -1,9 +1,8 @@
 package com.biswas.project.com.crud.restAPI.Services;
 
-import java.util.ArrayList;
+
 import java.util.List;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,6 +26,7 @@ public class ServiceImpls implements Services {
 		return dao.findAll();
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public Products getProduct(long productId) {
 		
@@ -39,14 +39,16 @@ public class ServiceImpls implements Services {
 	}
 	
 	@Override
-	public Products updateProduct(Products products) {
+	public Products updateProducts(Products products) {
 		dao.save(products);
 		return products;
 	}
 	
 	@Override
 	public void deleteProduct(long parseLong) {
-		dao.getOne(parseLong);
+		@SuppressWarnings("deprecation")
+		Products entityProducts = dao.getById(parseLong);
+		dao.delete(entityProducts);
 	}
 
 }
