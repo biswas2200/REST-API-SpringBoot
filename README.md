@@ -18,20 +18,18 @@ Installation Guide-
 
 #SCREENSHOTS
 
-![Screenshot from 2023-08-07 23-36-31](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/a78555df-3b7c-4b95-91ab-09b9de6fe7c7)
 
+![Screenshot from 2023-08-07 23-36-31](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/23b2abd6-17f4-4624-8e31-8ed47bfcd745)
+![Screenshot from 2023-08-07 20-50-37](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/feedb734-94f2-4617-8468-ad50465252fe)
+![Screenshot from 2023-08-07 23-36-31](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/6de7f4cc-3497-4230-8f2f-80bd0dda8802)
+![Screenshot from 2023-08-07 23-37-50](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/04bc8a5a-3ad6-4ea2-8ddc-3dbb56c4ced5)
 
-![Screenshot from 2023-08-07 20-50-37](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/a7a6314f-5452-40c4-b7da-ad2cd4bedc2a)
-![Screenshot from 2023-08-07 23-08-38](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/26068ba5-e6f4-43e4-b60d-20f9e93ac78a)
-![Screenshot from 2023-08-07 23-37-50](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/95755c6f-cbd5-46d0-8f47-19a2af483ac9)
-
-*{
+{
  If u get an error like this "Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured"
  -Go to Run AS, Run Configuration.
  -Go to Dependincies.
  -Add src/main/resource in Maven Dependicies(where application.properties present).
-
-![Screenshot from 2023-08-07 23-45-50](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/71eefe29-250e-4ec8-83fc-274e4dab7f0d)
+ ![Screenshot from 2023-08-07 23-45-50](https://github.com/biswas2200/REST-API-SpringBoot/assets/122800409/3fa1c777-de8d-49be-92d1-3c71e3ef70dc)
 }
 
 --EOF--
